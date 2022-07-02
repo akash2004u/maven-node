@@ -4,4 +4,6 @@ RUN apk update
 
 RUN apk add nodejs npm
 
+RUN apk --no-cache add openjdk11 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community
+
 CMD /bin/bash 
